@@ -1,0 +1,53 @@
+.vacancies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.list {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.content {
+    width: 800px;
+    border: 1px solid rgba(234, 235, 237, 1);
+    border-radius: 12px;
+    padding: 24px;
+
+    h1 {
+        font: 600 20px 'Inter';
+        color: rgba(94, 150, 252, 1);
+        margin-bottom: 10px;
+    }
+
+    .text {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+        p {
+            font: 600 16px 'Ineter';
+            color: black;
+            margin-bottom: 10px;
+        }
+
+        .time {
+            font: 400 16px 'Inter';
+            color: black;
+        }
+    }
+
+    p {
+        font: 400 16px 'Inter';
+        color: black;
+        margin-bottom: 10px;
+    }
+    .flexLocation{
+        display: flex;
+        gap: 10px;
+    }
+}
