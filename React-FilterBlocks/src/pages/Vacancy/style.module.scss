@@ -1,0 +1,36 @@
+.header {
+    padding: 35px;
+    border: 1px solid rgba(234, 235, 237, 1);
+    width: 773px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+
+    .flex {
+        display: flex;
+        gap: 15px;
+    }
+}
+
+.content {
+    padding: 35px;
+    border: 1px solid rgba(234, 235, 237, 1);
+    width: 773px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+
+    h2 {
+        font: 700 20px 'Inter'
+    }
+
+    li{
+        font: 400 16px 'Inter'
+
+
+    }
+}
